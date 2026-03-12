@@ -10,3 +10,5 @@ from langgraph.types import interrupt, Command
 from dotenv import load_dotenv
 import requests
 
+load_dotenv() 
+model = ChatGroq(model="openai/gpt-oss-safeguard-20b", temperature=0, max_tokens=1024)
