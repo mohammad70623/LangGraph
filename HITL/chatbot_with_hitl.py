@@ -27,3 +27,4 @@ def get_stock_price(symbol: str) -> dict:
     )
     response = requests.get(url)
     return response.json()
+
